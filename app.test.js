@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../app.js');
 const data = require('../data.js');
-const {authors, genres, filterBooks} = require('./data_t.js')
+const {authors, genres, filterBooks} = require('./data/data_t.js')
 
 console.log('Tests are started.');
 
